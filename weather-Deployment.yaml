@@ -15,7 +15,8 @@ spec:
     spec:
       containers:
         - name: weather
-          image: weather-app:latest
+          image: image: jyotsnayadagiri12/weather-app:latest
+
           ports:
             - containerPort: 5000
 ---
